@@ -1,11 +1,19 @@
 {
+  "scripts": {
+    "start": "",
+    "build-1": "webpack --context ./guides/getting-started/"
+  },
   "devDependencies": {
-    "webpack": "^4.0.1"
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
   },
   "name": "webpack4-playground",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/guitong/webpack4-playground.git",
   "author": "Guitong Geng <guitong.geng@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
 }
