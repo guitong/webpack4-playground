@@ -1,5 +1,3 @@
-const arr1 = [a, b];
-const arr2 = [c, d];
-const final = [...arr1, ...arr2];
+import './scss/main.scss';
 
-console.log('final', final);
+console.log('Hello, world');
